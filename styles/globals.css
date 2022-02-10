@@ -1,3 +1,10 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 html,
 body {
   padding: 0;
@@ -13,4 +20,28 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.rb-top-margin {
+  margin-top: 5rem;
+}
+
+.rb-container {
+  width: 95vw !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-end {
+  text-align: end;
 }

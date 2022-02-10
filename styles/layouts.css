@@ -4,6 +4,12 @@
   backdrop-filter: blur(47px);
   padding-top: 240px;
   filter: drop-shadow(0px 7px 16px rgba(140, 140, 140, 0.28));
+  /* box-shadow: 0px 7px 16px rgba(140, 140, 140, 0.28); */
+  position: fixed !important;
+  z-index: 1000 !important;
+  width: 100% !important;
+  top: 0;
+  left: 0;
 }
 
 .rb-navbar-btn {

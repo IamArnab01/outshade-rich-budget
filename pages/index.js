@@ -1,6 +1,16 @@
 import Head from "next/head";
 import React from "react";
 import Layout from "../layouts";
+import Hometop from "../components/home/hometop";
+import HomeConnect from "../components/home/connect";
+import HomePlans from "../components/home/plans";
+import HomeKYC from "../components/home/kyc";
+import HomeManageAssets from "../components/home/manageAssets";
+import HomeExpenseTrack from "../components/home/expenseTrack";
+import HomeReminders from "../components/home/reminders";
+import HomeSecurity from "../components/home/security";
+import HomeDocuments from "../components/home/docs";
+import HomePrizes from "../components/home/prizes";
 
 const Home = () => {
   return (
@@ -17,153 +27,18 @@ const Home = () => {
           />
         </Head>
         {/* page content */}
-        <div>this is the home page</div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus
-          {/* vero quisquam, totam unde nostrum et ab impedit beatae. Illo maiores
-          beatae illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus
-          vero quisquam, totam unde nostrum et ab impedit beatae. Illo maiores
-          beatae illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus
-          vero quisquam, totam unde nostrum et ab impedit beatae. Illo maiores
-          beatae illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Porro ducimus vero quisquam, totam unde
-          nostrum et ab impedit beatae. Illo maiores beatae illum praesentium
-          perferendis repudiandae ducimus ipsum natus doloribus! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Porro ducimus vero
-          quisquam, totam unde nostrum et ab impedit beatae. Illo maiores beatae
-          illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Porro ducimus vero quisquam, totam unde
-          nostrum et ab impedit beatae. Illo maiores beatae illum praesentium
-          perferendis repudiandae ducimus ipsum natus doloribus! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Porro ducimus vero
-          quisquam, totam unde nostrum et ab impedit beatae. Illo maiores beatae
-          illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Porro ducimus vero quisquam, totam unde
-          nostrum et ab impedit beatae. Illo maiores beatae illum praesentium
-          perferendis repudiandae ducimus ipsum natus doloribus! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Porro ducimus vero
-          quisquam, totam unde nostrum et ab impedit beatae. Illo maiores beatae
-          illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Porro ducimus vero quisquam, totam unde
-          nostrum et ab impedit beatae. Illo maiores beatae illum praesentium
-          perferendis repudiandae ducimus ipsum natus doloribus! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Porro ducimus vero
-          quisquam, totam unde nostrum et ab impedit beatae. Illo maiores beatae
-          illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Porro ducimus vero quisquam, totam unde
-          nostrum et ab impedit beatae. Illo maiores beatae illum praesentium
-          perferendis repudiandae ducimus ipsum natus doloribus! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Porro ducimus vero
-          quisquam, totam unde nostrum et ab impedit beatae. Illo maiores beatae
-          illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Porro ducimus vero quisquam, totam unde
-          nostrum et ab impedit beatae. Illo maiores beatae illum praesentium
-          perferendis repudiandae ducimus ipsum natus doloribus! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Porro ducimus vero
-          quisquam, totam unde nostrum et ab impedit beatae. Illo maiores beatae
-          illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! ipsum natus doloribus!
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus
-          vero quisquam, totam unde nostrum et ab impedit beatae. Illo maiores
-          beatae illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! repudiandae ducimus ipsum
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus
-          vero quisquam, totam unde nostrum et ab impedit beatae. Illo maiores
-          beatae illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Porro ducimus vero quisquam, totam unde
-          nostrum et ab impedit beatae. Illo maiores beatae illum praesentium
-          perferendis repudiandae ducimus ipsum natus doloribus! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Porro ducimus vero
-          quisquam, totam unde nostrum et ab impedit beatae. Illo maiores beatae
-          illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus
-          vero quisquam, totam unde nostrum et ab impedit beatae. Illo maiores
-          beatae illum praesentium perferendis repudiandae ducimus ipsum natus
-          doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Porro ducimus vero quisquam, totam unde nostrum et ab impedit beatae.
-          Illo maiores beatae illum praesentium perferendis repudiandae ducimus
-          ipsum natus doloribus! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Porro ducimus vero quisquam, totam unde nostrum et
-          ab impedit beatae. Illo maiores beatae illum praesentium perferendis
-          repudiandae ducimus ipsum natus doloribus! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Porro ducimus vero quisquam, totam unde
-          nostrum et ab impedit beatae. Illo maiores beatae illum praesentium */}
-        </p>
+        <div className="rb-top-margin">
+          <Hometop />
+          <HomeConnect />
+          <HomePlans />
+          <HomeKYC />
+          <HomeManageAssets />
+          <HomeExpenseTrack />
+          <HomeReminders />
+          <HomeSecurity />
+          <HomeDocuments />
+          <HomePrizes />
+        </div>
       </React.Fragment>
     </Layout>
   );

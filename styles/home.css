@@ -1,0 +1,182 @@
+.rb-home-top-bg,
+.rb-home-plans-bg {
+  background: #000;
+  backdrop-filter: blur(47px);
+}
+
+.rb-homtop-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 66px;
+  /* text-align: right; */
+  color: #ffffff;
+}
+
+.rb-homtop-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* text-align: right; */
+  color: #ecebf1;
+}
+
+.rb-home-join-btn1 {
+  background: #ffffff;
+  box-shadow: 0px 14px 29px rgba(9, 26, 80, 0.2);
+  border-radius: 10px;
+  padding: 10px 32px;
+}
+
+.rb-home-learn-btn1 {
+  border: 1.25px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px 32px;
+}
+
+.rb-home-join-btn1 span,
+.rb-home-learn-btn1 span {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  font-variant: small-caps;
+}
+
+.rb-home-join-btn1 span {
+  color: #002376;
+}
+
+.rb-home-learn-btn1 span {
+  color: #ffffff;
+}
+
+/* home connect section */
+.rb-home-cnct-heading {
+  font-family: Gilroy-Bold;
+  font-size: 80px;
+  line-height: 94px;
+  color: #000000;
+}
+
+.rb-home-cnct-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #525252;
+}
+
+/* home plans section */
+.rb-home-plan-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* KYC part */
+.rb-home-kyc-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: right;
+  color: #002376;
+}
+
+.rb-home-kyc-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  color: #1b0e2b;
+}
+
+.rb-home-asset-bg {
+  background: #002376;
+}
+
+.rb-home-asset-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.rb-home-asset-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.rb-home-join-btn2 {
+  background: #002376;
+  box-shadow: 0px 14px 29px rgba(7, 23, 72, 0.15);
+  border-radius: 10px;
+  padding: 12px 36px;
+}
+
+.rb-home-join-btn2 span {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  font-variant: small-caps;
+  color: #e4e5ed;
+}
+
+.rb-home-expns-track-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: right;
+  color: #000000;
+}
+
+.rb-home-expns-track-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  color: #1b0e2b;
+}
+
+.rb-home-remindrs-bg {
+  background: #000000;
+}
+
+.rb-home-reminder-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #bfbfbf;
+}
+
+.rb-home-docs-heading {
+  font-family: Gilroy-Bold;
+  font-size: 72px;
+  line-height: 84px;
+  color: #dedede;
+}
+
+.rb-home-prizes-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 72px;
+  color: #dedede;
+}
