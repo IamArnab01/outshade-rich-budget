@@ -1,0 +1,135 @@
+/* Header Section */
+.rb-navbar-bg {
+  background: #000000;
+  backdrop-filter: blur(47px);
+  padding-top: 240px;
+  filter: drop-shadow(0px 7px 16px rgba(140, 140, 140, 0.28));
+}
+
+.rb-navbar-btn {
+  background: #002376 !important;
+  box-shadow: 0px 8px 27px rgba(41, 74, 176, 0.42) !important;
+  border-radius: 8px !important;
+  padding: 6px 14px !important;
+}
+
+.rb-navber-txt {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.5px;
+  color: #ffffff;
+}
+
+.rb-navbar-btn-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Footer Section */
+.rb-footer-bg {
+  background: linear-gradient(121.21deg, #1e1e1e 25%, #333333 100%);
+  padding: 20px 0;
+}
+
+.rb-footer-bold-txt {
+  /* font-family: Gilroy-Bold; */
+  font-family: Noto Sans;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.rb-footer-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #757575;
+}
+
+.rb-footer-btn {
+  background: #ffffff;
+  box-shadow: 0px 14px 29px rgba(7, 23, 72, 0.15);
+  border-radius: 10px;
+  padding: 12px 28px;
+}
+.rb-footer-btn span {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* font-variant: small-caps; */
+  color: #1947b5;
+}
+
+.rb-footer-logo-txt,
+.rb-footer-logo-txt2 {
+  /* font-family: Gilroy-ExtraBold; */
+  font-family: Noto Sans;
+  font-weight: 600;
+  /* font-variant: small-caps; */
+  color: #ffffff;
+}
+
+.rb-footer-logo-txt {
+  font-size: 24px;
+  line-height: 105%;
+  margin-left: 14.5px;
+}
+.rb-footer-logo-txt2 {
+  font-size: 20.5px;
+  line-height: 105%;
+  margin-bottom: 15px;
+}
+
+.rb-footer-bio {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.5px;
+  line-height: 20px;
+  color: #a6a6a6;
+  padding-top: 28px;
+}
+
+.rb-footer-link-txt,
+.rb-footer-addr-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #494949;
+  cursor: pointer;
+}
+
+.rb-footer-link-txt:hover {
+  color: #ffffff;
+}
+
+.rb-footer-addr-txt span {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.rb-footer-copyright-bg {
+  background: #1c1c1c;
+  padding: 12px;
+  text-align: center;
+}
+
+.rb-footer-copyright-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  /* line-height: 16px; */
+  color: #424242;
+}
