@@ -1,0 +1,165 @@
+import React from "react";
+import Image from "next/image";
+import Slider from "react-slick";
+import MentorImage from "../../public/home/mentor.png";
+import LinkedinImg from "../../public/home/linkedin.png";
+import MailImg from "../../public/home/mail.png";
+import TwitterImg from "../../public/home/twitter.png";
+
+const data = [
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+  {
+    src: MentorImage,
+    name: "Mr. Robin Arya",
+    position: "Founder, Google",
+    email: "https://mail.google.com",
+    linkedin: "https://www.linkedin.com",
+    twitter: "https://twitter.com/",
+  },
+];
+
+const settings = {
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  dots: false,
+  arrows: false,
+  infinite: false,
+  nextArrow: null,
+  prevArrow: null,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+        arrows: true,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+      },
+    },
+  ],
+};
+
+const HomeMentors = () => {
+  return (
+    <div className="rb-container container pt-5 pb-4">
+      <h1 className="rb-home-partner-heading">Our Mentors</h1>
+      <p className="rb-home-partner-txt mb-4">
+        We are proud to be partnered by some of the top financial and banking
+        corporations out there.
+      </p>
+      <div className="py-4">
+        {data && (
+          <Slider {...settings} className="">
+            {data.map((item, index) => {
+              return (
+                <div key={index} className="d-flex justify-content-center">
+                  <div>
+                    <Image src={item.src} />
+                    <div className="d-flex justify-content-evenly mb-1 pt-2">
+                      <a href={item.email} target="_blank">
+                        <Image src={MailImg} className="cursor-pointer" />
+                      </a>
+                      <a href={item.linkedin} target="_blank">
+                        <Image src={LinkedinImg} className="cursor-pointer" />
+                      </a>
+                      <a href={item.twitter} target="_blank">
+                        <Image src={TwitterImg} className="cursor-pointer" />
+                      </a>
+                    </div>
+                    <p className="rb-home-mentor-name mb-1 mt-2">{item.name}</p>
+                    <p className="rb-home-mentor-pos mb-0">{item.position}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </Slider>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default HomeMentors;

@@ -11,6 +11,10 @@ import HomeReminders from "../components/home/reminders";
 import HomeSecurity from "../components/home/security";
 import HomeDocuments from "../components/home/docs";
 import HomePrizes from "../components/home/prizes";
+import HomePartners from "../components/home/partners";
+import HomeTestimonials from "../components/home/testimonials";
+import HomeMentors from "../components/home/mentors";
+import HomeSuprheroes from "../components/home/superheroes";
 
 const Home = () => {
   return (
@@ -38,6 +42,10 @@ const Home = () => {
           <HomeSecurity />
           <HomeDocuments />
           <HomePrizes />
+          <HomePartners />
+          <HomeTestimonials />
+          <HomeMentors />
+          <HomeSuprheroes />
         </div>
       </React.Fragment>
     </Layout>

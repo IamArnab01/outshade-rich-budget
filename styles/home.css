@@ -180,3 +180,94 @@
   line-height: 72px;
   color: #dedede;
 }
+
+.rb-home-partner-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  color: #0152ab;
+  padding-top: 30px;
+}
+
+.rb-home-partner-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #232323;
+}
+
+.rb-home-mentor-name {
+  font-family: Gilroy-Bold;
+  font-size: 18.5px;
+  line-height: 21px;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+.rb-home-mentor-pos {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 16px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #5c5c5c;
+}
+
+.rb-home-testimonial-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  color: #f6f6f6;
+}
+
+.rb-home-testimonial-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #a8a8a8;
+}
+
+.rb-home-testiony-card {
+  background: linear-gradient(0deg, #ffffff, #ffffff) !important;
+  border-radius: 18px !important;
+}
+
+.rb-home-testimony-name {
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2b2b2b;
+}
+
+.rb-home-testimony-pos {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 16px;
+  font-variant: small-caps;
+  color: #ababab;
+}
+/* 
+.rb-home-testimony-pos span {
+} */
+
+.rb-home-testimony {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #112a45;
+}
