@@ -16,27 +16,33 @@ const HomePlans = () => {
         <div className="row">
           <div className="col-md-3">
             <Image src={Investment} alt="" />
-            <div className="text-center">
+            {/* <div className="text-center">
               Investment <br /> Planning
-            </div>
+            </div> */}
           </div>
           <div className="col-md-3">
             <Image src={Estate} alt="" />
-            <div className="text-center">
+            {/* <div className="text-center">
               Estate <br /> Planning
-            </div>
+            </div> */}
           </div>
           <div className="col-md-3">
             <Image src={Tax} alt="" />
-            <div className="text-center">
+            {/* <div className="text-center">
               Tax <br /> Planning
-            </div>
+            </div> */}
           </div>
           <div className="col-md-3">
             <Image src={Insurance} alt="" />
-            <div className="text-center">
+            {/* <div className="text-center">
               Insurance <br /> Planning
-            </div>
+            </div> */}
+          </div>
+        </div>
+
+        <div className="d-flex justify-content-center">
+          <div className="rb-home-join-btn2">
+            <span>Start Now</span>
           </div>
         </div>
       </div>

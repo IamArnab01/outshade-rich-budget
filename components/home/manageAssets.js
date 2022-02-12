@@ -31,7 +31,7 @@ const HomeManageAssets = () => {
         </div>
         <div
           className="pt-5 text-center"
-          style={{ position: "relative", bottom: "-5px" }}
+          style={{ position: "relative", bottom: "-6px" }}
         >
           <Image src={LinesImage} />
         </div>

@@ -124,6 +124,7 @@
   box-shadow: 0px 14px 29px rgba(7, 23, 72, 0.15);
   border-radius: 10px;
   padding: 12px 36px;
+  cursor: pointer;
 }
 
 .rb-home-join-btn2 span {

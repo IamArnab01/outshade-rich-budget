@@ -193,7 +193,7 @@ const HomeTestimonials = () => {
                         </div>
                       </div>
                       <p className="rb-home-testimony pt-4">
-                        " {item.testimony} "
+                        &quot; {item.testimony} &quot;
                       </p>
                     </div>
                   </div>

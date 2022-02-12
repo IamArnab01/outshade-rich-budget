@@ -139,13 +139,13 @@ const HomeSuprheroes = () => {
                   <div>
                     <Image src={item.src} />
                     <div className="d-flex justify-content-evenly mb-1 pt-2">
-                      <a href={item.email} target="_blank">
+                      <a href={item.email} target="_blank" rel="noreferrer">
                         <Image src={MailImg} className="cursor-pointer" />
                       </a>
-                      <a href={item.linkedin} target="_blank">
+                      <a href={item.linkedin} target="_blank" rel="noreferrer">
                         <Image src={LinkedinImg} className="cursor-pointer" />
                       </a>
-                      <a href={item.twitter} target="_blank">
+                      <a href={item.twitter} target="_blank" rel="noreferrer">
                         <Image src={TwitterImg} className="cursor-pointer" />
                       </a>
                     </div>
