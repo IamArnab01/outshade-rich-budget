@@ -1,3 +1,10 @@
+.rb-home-height {
+  height: 91.75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .rb-home-top-bg,
 .rb-home-plans-bg {
   background: #000;
@@ -55,8 +62,10 @@
 }
 
 /* home connect section */
+
 .rb-home-cnct-heading {
   font-family: Gilroy-Bold;
+  src: url("../assets/gilroy/Gilroy-Bold.ttf");
   font-size: 80px;
   line-height: 94px;
   color: #000000;
@@ -78,6 +87,21 @@
   line-height: 70px;
   text-align: center;
   color: #ffffff;
+}
+
+.rb-home-plans-bg {
+  background-image: url("../public/home/bg-img1.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rb-home-plans-bg-card {
+  background-image: url("../public/home/card-bg.png");
+  height: 100%;
+  width: 100%;
 }
 
 /* KYC part */
@@ -105,6 +129,7 @@
 
 .rb-home-asset-heading {
   font-family: Gilroy-Bold;
+  src: url("../assets/gilroy/Gilroy-Bold.ttf");
   font-size: 60px;
   line-height: 70px;
   color: #ffffff;
@@ -117,6 +142,8 @@
   font-size: 24px;
   line-height: 33px;
   color: #ffffff;
+  position: absolute;
+  bottom: 10px;
 }
 
 .rb-home-join-btn2 {
@@ -201,6 +228,11 @@
   color: #232323;
 }
 
+/* mentor part */
+.rb-home-mentor-img {
+  border-radius: 50%;
+}
+
 .rb-home-mentor-name {
   font-family: Gilroy-Bold;
   font-size: 18.5px;
@@ -271,4 +303,52 @@
   font-size: 15px;
   line-height: 22px;
   color: #112a45;
+}
+
+/* recomendation part */
+.rb-home-recom-bg {
+  background: url("../public/home/bg-img2.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0 !important;
+}
+
+.rb-home-recom-heading {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: right;
+  color: #9d9d9d;
+}
+
+.rb-home-recom-txt {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #a6a6a6;
+}
+
+.rb-home-recom-cards-div {
+  position: relative;
+  top: 35%;
+  left: 18%;
+}
+
+.rb-home-recom-col {
+  position: relative;
+  right: 5%;
+}
+
+.rb-home-recom-card {
+  /* background: transparent !important; */
+  /* mix-blend-mode: color-burn; */
+  /* opacity: 0.15; */
+  border-radius: 17px !important;
+  padding: 48px 28px;
 }

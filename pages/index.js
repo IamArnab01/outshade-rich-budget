@@ -9,6 +9,7 @@ import HomeManageAssets from "../components/home/manageAssets";
 import HomeExpenseTrack from "../components/home/expenseTrack";
 import HomeReminders from "../components/home/reminders";
 import HomeSecurity from "../components/home/security";
+import HomeRecomendation from "../components/home/recomendtions";
 import HomeDocuments from "../components/home/docs";
 import HomePrizes from "../components/home/prizes";
 import HomePartners from "../components/home/partners";
@@ -44,6 +45,7 @@ const Home = () => {
           <HomeExpenseTrack />
           <HomeReminders />
           <HomeSecurity />
+          {/* <HomeRecomendation /> */}
           <HomeDocuments />
           <HomePrizes />
           <HomePartners />

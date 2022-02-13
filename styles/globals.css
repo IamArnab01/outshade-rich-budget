@@ -5,6 +5,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("../assets/gilroy/Gilroy-Bold.ttf");
+}
+
 html,
 body {
   padding: 0;

@@ -4,7 +4,7 @@ import Cartoon from "../../public/home/connect-img.png";
 
 const HomeConnect = () => {
   return (
-    <div className="py-4">
+    <div className="rb-home-height">
       <div className="rb-container container">
         <div className="row d-flex align-items-center">
           <div className="col-md-5">

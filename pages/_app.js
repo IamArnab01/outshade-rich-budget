@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "../styles/layouts.css";
 import "../styles/home.css";
+import "../styles/carousel.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";

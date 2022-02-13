@@ -4,7 +4,7 @@ import LaptopImage from "../../public/home/laptop.png";
 
 const Hometop = () => {
   return (
-    <div className="rb-home-top-bg">
+    <div className="rb-home-top-bg rb-home-height">
       <div className="rb-container container">
         <div className="row d-flex align-items-center">
           <div className="col-md-6 px-0">

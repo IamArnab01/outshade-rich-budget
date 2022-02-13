@@ -4,8 +4,8 @@ import ScreenImage from "../../public/home/screen-img4.png";
 
 const HomeSecurity = () => {
   return (
-    <div className="py-5">
-      <div className="rb-container container pt-5 pb-3">
+    <div className="rb-home-height">
+      <div className="rb-container container">
         <div className="row ">
           <div className="col-md-7">
             <Image

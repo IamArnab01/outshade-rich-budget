@@ -4,8 +4,8 @@ import ScreenImage from "../../public/home/screen-img3.png";
 
 const HomeExpenseTrack = () => {
   return (
-    <div className="py-5">
-      <div className="rb-container container py-4">
+    <div className="rb-home-height">
+      <div className="rb-container container">
         <div className="row d-flex align-items-center">
           <div className="col-md-7">
             <Image
