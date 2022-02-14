@@ -313,7 +313,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 120px 0 !important;
+  /* background-attachment: fixed; */
+  background-clip: padding-box;
+  background-origin: padding-box;
+  padding: 160px 0 100px 0 !important;
+}
+
+.rb-home-recom-row {
+  padding-top: 20vh;
 }
 
 .rb-home-recom-heading {
@@ -334,23 +341,20 @@
   color: #a6a6a6;
 }
 
-.rb-home-recom-cards-div {
+/* .rb-home-recom-cards-div {
   position: relative;
   top: 35%;
   left: 18%;
-}
+} */
 
-.rb-home-recom-col {
+/* .rb-home-recom-col {
   position: relative;
   right: 5%;
-}
+} */
 
 .rb-home-recom-card {
-  /* background: transparent !important; */
-  /* mix-blend-mode: color-burn; */
-  /* opacity: 0.15; */
   border-radius: 17px !important;
-  padding: 48px 28px;
+  padding: 32px 24px;
 }
 
 /* asset carousel part */
