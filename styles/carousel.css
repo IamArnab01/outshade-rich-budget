@@ -1,23 +1,17 @@
 .slick-dots {
   position: absolute !important;
-  bottom: -26.15vh !important;
+  bottom: -15px !important;
 }
 
 .slick-dots li {
   position: relative;
   display: inline-block;
-  transform: rotate(180deg);
-  width: 0px !important;
+  width: 4px !important;
   height: 0 !important;
   margin: 0 8px !important;
   padding: 0;
   cursor: pointer;
-}
-
-.slick-dots li.slick-active button:before {
-  opacity: 1 !important;
-  color: #beddff !important;
-  height: 60px !important;
+  transform: rotate(180deg) !important;
 }
 
 .slick-dots li button:before {
@@ -31,4 +25,10 @@
   opacity: 1 !important;
   background: #f1f1f1 !important;
   color: #f1f1f1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: #beddff !important;
+  height: 60px !important;
 }

@@ -2,8 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import ScreenImage1 from "../../public/home/screen-img2.png";
-import ScreenImage2 from "../../public/home/screen-img2.png";
-import ScreenImage3 from "../../public/home/screen-img2.png";
+import ScreenImage2 from "../../public/home/screen-img6.png";
+import ScreenImage3 from "../../public/home/screen-img7.png";
 
 const data = [
   {
@@ -36,18 +36,19 @@ const settings = {
 };
 
 const HomeManageAssets = () => {
+  // console.log(100);
   return (
     <div className="rb-home-asset-bg">
-      <div className="rb-home-height">
+      <div className="">
         <div className="rb-container container">
-          <div className="">
+          <div style={{ position: "relative" }}>
             {data && (
-              <Slider {...settings} className="">
+              <Slider {...settings}>
                 {data.map((item, index) => {
                   return (
                     <div
                       key={index}
-                      className="row d-flex justify-content-center"
+                      className="row d-flex justify-content-center rb-home-asset-slide-row"
                     >
                       <div className="col-md-5">
                         <h1 className="rb-home-asset-heading pt-2">
